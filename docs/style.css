@@ -32,19 +32,19 @@ body {
 /* heart button */
 .heart-btn {
   position: absolute;
-  bottom: 25px;
+  bottom: -40px; /* move below the envelope */
   left: 50%;
   transform: translateX(-50%);
   padding: 12px 22px;
+  border-radius: 25px;
   background: #7d47a6;
   color: white;
-  border-radius: 25px;
   text-decoration: none;
   font-family: 'Parisienne', cursive;
   font-size: 22px;
   box-shadow: 0 8px 18px rgba(0,0,0,0.15);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
 
 /* cute hover */
 .heart-btn:hover {
