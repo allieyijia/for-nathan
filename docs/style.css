@@ -35,7 +35,7 @@ body {
   bottom: -40px; /* move below the envelope */
   left: 50%;
   transform: translateX(-50%);
-  padding: 12px 22px;
+  padding: 15px 30px;
   border-radius: 25px;
   background: #7d47a6;
   color: white;
@@ -57,7 +57,7 @@ body {
   background: linear-gradient(135deg, #f8e1ff, #DBB8FF);
   min-height: 100vh;
   padding: 40px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Handlee', cursive;
   color: #3b0764;
   display: flex;
   justify-content: center;
