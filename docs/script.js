@@ -1,13 +1,18 @@
+console.log("JS LOADED");
+
 const envelope = document.getElementById("envelope");
 const btn = document.getElementById("openBtn");
 
-btn.addEventListener("click", () => {
+let opened = false;
+
+btn.addEventListener("click", (e) => {
+  e.stopPropagation();
   envelope.classList.add("open");
+  opened = true;
 });
 
-// after opened, clicking goes to the letter page
 envelope.addEventListener("click", () => {
-  if (envelope.classList.contains("open")) {
+  if (opened) {
     window.location.href = "letter.html";
   }
 });
