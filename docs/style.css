@@ -57,7 +57,6 @@ button:hover {
   background: linear-gradient(135deg, #f8e1ff, #DBB8FF);
   min-height: 100vh;
   padding: 40px;
-  font-family: 'Playfair Display', serif;
   font-size: 18px;
   color: #3b0764;
   display: flex;
