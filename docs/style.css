@@ -29,29 +29,28 @@ body {
   max-width: 90vw;
 }
 
-/* heart button */
-.heart-btn {
-  position: absolute;
-  bottom: -120px; /* move below the envelope */
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 15px 20px;
-  border-radius: 25px;
-  background: #7d47a6;
-  color: white;
-  text-decoration: none;
-  width: 150px;
+/* button */
+
+button {
+  display: inline-flex;    
+  align-items: center;       
+  justify-content: center;   
+  padding: 10px 20px;      
+  border: none;             
+  border-radius: 8px;       
+  background-color: #7d47a6; 
+  color: white;             
+  font-size: 20px;           
   font-family: 'Parisienne', cursive;
   font-size: 22px;
-  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  cursor: pointer;           
+  transition: background 0.3s;
 }
 
-
-/* cute hover */
-.heart-btn:hover {
-  transform: translateX(-50%) scale(1.05);
-  box-shadow: 0 12px 22px rgba(0,0,0,0.2);
+button:hover {
+  background-color: #6c3f8f; 
 }
+
 
 /* ===== letter page ===== */
 .letter-page {
@@ -66,7 +65,7 @@ body {
 }
 
 .letter-container {
-  max-width: 900px;
+  max-width: 1000px;
   margin: auto;
   background: white;
   border-radius: 12px;
@@ -76,7 +75,7 @@ body {
 }
 
 .side-images {
-  width: 200px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -89,6 +88,6 @@ body {
 
 .message {
   flex: 1;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.6;
 }
