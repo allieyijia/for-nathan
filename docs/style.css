@@ -57,7 +57,8 @@ button:hover {
   background: linear-gradient(135deg, #f8e1ff, #DBB8FF);
   min-height: 100vh;
   padding: 40px;
-  font-family: 'Handlee', cursive;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
   color: #3b0764;
   display: flex;
   justify-content: center;
@@ -88,6 +89,6 @@ button:hover {
 
 .message {
   flex: 1;
-  font-size: 10px;
+  font-size: 18px;
   line-height: 1.6;
 }
