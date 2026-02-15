@@ -31,7 +31,7 @@ body {
 
 /* button */
 
-button {
+.heart-btn {
   display: inline-flex;    
   align-items: center;       
   justify-content: center;   
@@ -47,7 +47,7 @@ button {
   transition: background 0.3s;
 }
 
-button:hover {
+.heart-btn:hover {
   background-color: #6c3f8f; 
 }
 
