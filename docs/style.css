@@ -32,24 +32,25 @@ body {
 /* button */
 
 .heart-btn {
-  display: inline-flex;    
-  align-items: center;       
-  justify-content: center;   
-  padding: 10px 20px;      
-  border: none;             
-  border-radius: 8px;       
-  background-color: #7d47a6; 
-  color: white;             
-  font-size: 20px;           
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #7d47a6;
+  color: white;
   font-family: 'Parisienne', cursive;
   font-size: 22px;
-  cursor: pointer;           
+  text-decoration: none;   /* removes underline */
+  cursor: pointer;
   transition: background 0.3s;
 }
 
 .heart-btn:hover {
-  background-color: #6c3f8f; 
+  background-color: #6c3f8f;
 }
+
 
 
 /* ===== letter page ===== */
